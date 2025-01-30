@@ -1,0 +1,161 @@
+/* Center the main content */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .add-student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px; /* You can set a max width for the content */
+    padding: 20px;
+    text-align: center;
+    background: wheat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-student h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Form layout and styling */
+  .add-student form {
+    width: 90%;
+    max-width: 500px; /* Restrict the form width */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: white;
+  }
+  
+  .add-student label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .add-student input,
+  .add-student select,
+  .add-student textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: wheat;
+    color: black;
+  }
+  
+  .add-student select {
+    background: wheat;
+    color: black;
+  }
+  
+  .add-student textarea {
+    height: 120px;
+    resize: vertical;
+    background: #fafafa;
+  }
+  
+  .add-student button {
+    padding: 12px 18px;
+    border: none;
+    background-color: rgb(7, 230, 234);
+    color: rgb(48, 38, 231);
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .add-student button:hover {
+    background-color: #7a4e2f;
+  }
+  
+  /* Center the student list table */
+  .student-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .student-list table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  
+  .student-list th,
+  .student-list td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .student-list th {
+    background: rgb(82, 60, 249);
+    color: black;
+    font-weight: bold;
+  }
+  
+  .student-list td {
+    background: black;
+    color: #333;
+  }
+  
+  .student-list tr:hover {
+    background: black;
+  }
+  
+  .student-list .edit-button {
+    padding: 6px 12px;
+    background-color: #f5a623;
+    color: black;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-list .edit-button:hover {
+    background-color: #d98e1a;
+  }
+  
+  .student-list .delete-button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-list .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
